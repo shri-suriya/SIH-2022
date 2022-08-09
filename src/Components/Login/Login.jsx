@@ -8,9 +8,9 @@ function Login() {
         <h2>Login</h2>
         <div className='login'>
             <form id='login'>
-            <label><b>User Name</b></label> <br></br><br></br>
+            <label><b>User Name</b></label> <br></br>
             <input type="text" name="Uname" id="username" placeholder="Username"></input><br></br><br></br>
-            <label><b>Password</b></label><br></br><br></br>
+            <label><b>Password</b></label><br></br>
             <input type="Password" name="Pass" id="password" placeholder="Password"></input><br></br><br></br>
             <button type="button" id="log" onclick="Info()">Click Me</button><br></br><br></br>
             <input type="checkbox" id="check"></input>

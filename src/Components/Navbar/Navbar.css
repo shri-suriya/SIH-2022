@@ -15,9 +15,9 @@
     float: right;
     display: flex;
     gap: 20px;
-    padding-right: 50px;
+    padding-right: 27px;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 14px;
 
 }
 a:hover{
@@ -34,7 +34,7 @@ a:hover{
     padding-left: 100px;
     position: absolute;
     top: 8px;
-    left: 16px;
+    left: 5px;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
