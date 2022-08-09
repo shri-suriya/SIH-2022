@@ -7,7 +7,7 @@ function Blog() {
         <div>
             <Navbar/>
             <div>
-                <img src={Logos} alt=" "></img>
+                <img className='Back' src={Logos} alt=" "></img>
             </div>
             <div>
                 <h1>Structure and Locations of NDRF</h1><br></br><br></br>

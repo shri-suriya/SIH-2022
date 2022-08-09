@@ -7,6 +7,8 @@ import Login from './Components/Login/Login';
 import Register from './Components/Register/Register';
 import Contact from './Components/Contact/Contact';
 import Blog from './Components/Blog/Blog';
+import About from './Components/About/About';
+import Weather from './Components/Weather/Weather';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<BrowserRouter>
@@ -16,6 +18,8 @@ root.render(<BrowserRouter>
         <Route path='/Register' element={<Register/>}/>
         <Route path='/Contact' element={<Contact/>}/>
         <Route path='/Blog' element={<Blog/>}/>
+        <Route path='/About' element={<About/>}/>
+        <Route path='/Weather' element={<Weather/>}/>
     </Routes></BrowserRouter>);
 
 

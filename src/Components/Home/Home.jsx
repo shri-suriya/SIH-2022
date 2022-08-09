@@ -4,7 +4,7 @@ import './Home.css'
 function Main() {
   return (
     <div>
-      <img src={Logo} alt="" />
+      <img className='Front' src={Logo} alt="" />
     </div>
   )
 }
