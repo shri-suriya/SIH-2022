@@ -1,9 +1,13 @@
 import React from 'react'
-import Main from '../Main/Main'
+import Home from '../Home/Home'
+
+import Navbar from '../Navbar/Navbar'
 function App() {
   return (
     <div>
-      <Main />
+      <Navbar/>
+      <Home />
+    
     </div>
   )
 }

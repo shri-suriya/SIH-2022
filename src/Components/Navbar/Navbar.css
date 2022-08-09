@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.topnav {
+    height: 80px;
+    background-color: black;
+}
+
+.topnav a {
+    
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    float: right;
+    display: flex;
+    gap: 20px;
+    padding-right: 50px;
+    align-items: center;
+    padding-top: 30px;
+
+}
+a:hover{
+    color: burlywood;
+}
+#h1:hover{
+    color: burlywood;
+}
+
+#h1 {
+    color: rgb(255, 253, 253);
+    float: left;
+    padding: 15px;
+    padding-left: 100px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
