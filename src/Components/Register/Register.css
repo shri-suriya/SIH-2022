@@ -1,0 +1,92 @@
+.login {
+    width: 315px;
+    height:520px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 80px;
+    background: #000000;
+    border-radius: 80px;
+
+}
+
+h2 {
+    text-align: center;
+    color: #000;
+    padding: 20px;
+}
+
+label {
+    color: #fff;
+    font-size: 17px;
+}
+
+#Username {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#pass {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+
+#address {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+
+#Number {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+
+#Email {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+
+#Batch {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+
+#Ncc {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+#log{
+    width: 310px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-right: 7px;
+    color: blue;
+}

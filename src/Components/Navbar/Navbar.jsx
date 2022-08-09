@@ -5,16 +5,16 @@ function Navbar() {
   return (
     <div>
         <div class="topnav">
-    <a id="h1" href="#">NCC CONNECT</a>
-    <a href="#">About</a>
-    <a href="#">Register</a>
-    <Link to="/Login"><a href="#">Login</a></Link>
-    <a href="#">Contact</a>
-    <a href="#">Weather</a>
-    <a href="#">Blog</a>
-    <Link to="/App"><a href="#">Home</a></Link>
+          <Link to="/App"><a id="h1" href="#">NCC CONNECT</a></Link>
+          <a href="#">About</a>
+          <Link to ="/Register"><a href="#">Register</a></Link>
+          <Link to="/Login"><a href="#">Login</a></Link>
+          <Link to="/Contact"><a href="#">Contact</a></Link>
+          <a href="#">Weather</a>
+          <Link to ="/Blog"><a href="#">Blog</a></Link>
+          <Link to="/App"><a href="#">Home</a></Link>
+        </div>
   </div>
-    </div>
   )
 }
 
