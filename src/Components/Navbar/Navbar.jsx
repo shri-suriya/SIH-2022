@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div>
         <div class="topnav">
-          <Link to="/App"><a id="h1" href="#">NCC CONNECT</a></Link>
+          <Link to="/App"><a id="h1" href="#">COMMUNITY CONNECT</a></Link>
           <Link to ="/About"><a href="#">About</a></Link>
           <Link to ="/Register"><a href="#">Register</a></Link>
           <Link to="/Login"><a href="#">Login</a></Link>

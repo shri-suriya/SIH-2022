@@ -1,6 +1,10 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import './Login.css'
+
+function Info(){
+  
+}
 function Login() {
   return (
     <div>
