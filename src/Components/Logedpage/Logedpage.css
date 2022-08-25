@@ -1,0 +1,70 @@
+.alert{
+    width: 315px;  
+    height: 250px;
+    overflow: hidden;  
+    margin: auto;  
+    margin: 20 0 0 450px;  
+    padding: 80px;  
+    background: #000000;  
+    border-radius: 80px ; 
+}
+  
+h2{  
+    text-align: center;  
+    color:#000;  
+    padding: 20px;  
+    }  
+    label{  
+    color: #fff;  
+    font-size: 17px;  
+    }  
+    #username{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+    }  
+    #password{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+    }  
+    #log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+    
+    
+    }  
+    span{  
+    color: white;  
+    font-size: 17px;  
+    }  
+    .forget{
+        color: #fff;
+        text-decoration: none;
+        float:right;
+    }
+    input[type="submit"] {
+        width: 100px;
+        height: 30px;
+    }
+    input#Alertarea {
+        width: 310px;
+        height: 30px;
+    }
+    select#org {
+        width: 310px;
+        height: 30px;
+    } 
+    
+    
+     
+    
