@@ -8,7 +8,6 @@ import Register from './Components/Register/Register';
 import Logedpage from './Components/Logedpage/Logedpage';
 import Details from './Components/Details/Details';
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<BrowserRouter>
     <Routes>
@@ -22,3 +21,31 @@ root.render(<BrowserRouter>
     </Routes></BrowserRouter>);
 
 
+const Nexmo = require('nexmo');
+const nexmo = new Nexmo({
+  apiKey: YOUR_API_KEY,
+  apiSecret: YOUR_API_SECRET
+});
+
+
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+nexmo.message.sendSms(
+  YOUR_VIRTUAL_NUMBER, '7824965584', 'yo',
+    (err, responseData) => {
+      if (err) {
+        console.log(err);
+      } else {
+        console.dir(responseData);
+      }
+    }
+ );
+ 
