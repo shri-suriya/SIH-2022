@@ -52,6 +52,12 @@ font-size: 17px;
     text-decoration: none;
     float:right;
 }
-
+a.btn.btn-primary {
+    padding: 6px;
+    background-color: aliceblue;
+    text-decoration: none;
+    padding-left: 125px;
+    padding-right: 125px;
+}
 
  

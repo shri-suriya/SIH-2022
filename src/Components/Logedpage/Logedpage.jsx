@@ -1,5 +1,6 @@
 import React from 'react'
 import './Logedpage.css'
+import {Link} from 'react-router-dom'
 function Logedpage() {
     return (
         <><h2>Alert Notify</h2><br></br><div className='alert'>
@@ -16,7 +17,7 @@ function Logedpage() {
                 <label><b>Address</b></label><br></br>
                 <input type="text" name="Pass" id="address" placeholder="Address"></input>
                 <br></br><br></br>
-                <input type="submit" className="submit"></input>
+                <Link to="/Details" className="btn btn-primary">Submit</Link><br></br><br></br>
             </form>
         </div></>
     )
