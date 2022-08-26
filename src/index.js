@@ -7,6 +7,7 @@ import Login from './Components/Login/Login';
 import Register from './Components/Register/Register';
 import Logedpage from './Components/Logedpage/Logedpage';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<BrowserRouter>
     <Routes>
@@ -14,6 +15,7 @@ root.render(<BrowserRouter>
         <Route path='/Login' element={<Login />}/>
         <Route path='/Register' element={<Register/>}/>
         <Route path='/Logedpage' element={<Logedpage/>}/>
+        
         
     </Routes></BrowserRouter>);
 

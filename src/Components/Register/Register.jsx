@@ -6,7 +6,7 @@ function Register() {
         <div>
             <Navbar />
             <h2>Register</h2><br></br>
-            <div className='register'>
+            <div className='register' >
                 <form id="register" >
                     <label><b> Name</b></label><br></br>
                     <input type="text" name="Uname" id="Username" placeholder="Name"></input>
