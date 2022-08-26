@@ -7,6 +7,7 @@ MongoClient.connect(url, function(err, db) {
   dbo.collection("Volunter Details").find({}).toArray(function(err, result) {
     if (err) throw err;
     console.log(result);
+    document.write(result);
     db.close();
   });
 });
